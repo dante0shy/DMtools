@@ -9,6 +9,8 @@ import log
 
 class proprocess :
 # normalization(data,col,way = 0 ,flag1 = 0,flag2 = 1)
+# Three different ways to normalization include min-max normalization,means standardlization normalization
+#  ,and decimal decimal scaliy normalization
 #   data    :   data need to be done ,which is assumed as float64
 #   clo     :   the column which need to be normalization
 #   way     :   the way to deal the data
@@ -29,7 +31,7 @@ class proprocess :
                     i=i+1
                 return  data
             else:
-                log("wrong range!")
+                log.LogMessage("wrong range!")
                 sys.exit(0)
         elif(way == 1):
             std = data.loc[:, col].std()
