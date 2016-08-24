@@ -16,6 +16,11 @@ class data :
     data=[]
     __dir = ''
     __zip_dir = ''
+#__init__(self,dir,zip_dir = 'none')
+# init the data structrue
+#   self    :   self
+#   dir     :   The direction of the file
+#   zip_dir :   If it's a zip file ,the data file in the zip
     def __init__(self,dir,zip_dir = 'none'):
         self.__dir=dir
         self.__zip_dir=zip_dir
