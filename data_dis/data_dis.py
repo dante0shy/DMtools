@@ -70,7 +70,6 @@ class distance:
                 i = i+1
         dist = math.pow(dist,(1/r))
         return dist
-    def 
 
 
 #data_1 = data.data('../input/BNPcsv.zip','train.csv')
