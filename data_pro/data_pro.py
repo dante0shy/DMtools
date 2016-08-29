@@ -1,4 +1,6 @@
-
+__author__ = 'dante0shy'
+__version__ = '0.1'
+__date__ = '21/08/2016'
 
 #from dataW import data
 #import numpy as np
