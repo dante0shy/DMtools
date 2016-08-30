@@ -1,4 +1,6 @@
-
+__author__ = 'dante0shy'
+__version__ = '0.1'
+__date__ = '21/08/2016'
 
 #from dataW import data
 #import numpy as np
@@ -18,6 +20,7 @@ class proprocess :
 #                   2 means standardlization normalization
 #                   3 means decimal decimal scaliy normalization
 #   falg1 ,flag2:   the min and max range when way = 0
+#   retuen  :   the data has been normalized
     def normalization(data,col,way = 0 ,flag1 = 0,flag2 = 1):
         #print(data)
         if(way == 0):
