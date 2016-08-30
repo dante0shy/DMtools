@@ -16,11 +16,12 @@ from operator import itemgetter
 
 
 #def KNN(data,data_set,goal_col ,K=2)
-# calculate the KNN alllgroithmn
+# calculate the KNN alllgroithmn,
 #   data    :   the data need to be processed
 #   data_set:   the train data_set,must be all propecessed
 #   goal_col:   the column which need to be classification
 #   K       :   the K in KNN
+#   retuen  :   the nearest neighbours' ID and dist
 def KNN(data,data_set,goal_col ,K=2):
     i=0
     data_NN=[]
@@ -71,16 +72,16 @@ def KNN(data,data_set,goal_col ,K=2):
 
 
 
-df = pd.DataFrame(np.random.rand(10,4),columns=['a','b','c','d'])
-for i in range(10):
-    df.ix[i,'d']=random.randint(0,1)
+#df = pd.DataFrame(np.random.rand(10,4),columns=['a','b','c','d'])
+#for i in range(10):
+#    df.ix[i,'d']=random.randint(0,1)
 
 
-df1=pd.DataFrame({'a':[1],'b':[2],'c':[3]})
+#df1=pd.DataFrame({'a':[1],'b':[2],'c':[3]})
 
 
 
-print(KNN(df1,df,'d'))
+#print(KNN(df1,df,'d'))
 
 
 #print([ i for i in df.ix[0,:]])

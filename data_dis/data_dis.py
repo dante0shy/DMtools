@@ -27,6 +27,7 @@ import math
 #               Exampl: col = [('v1','v5')] means column v1-v5
 #                       col = ['v1'] means column v1
 #                       col = [('v1','v3'),('v5','v7')] means column v1-v3 ,v5-v7
+#   retuen  :   the distance of this two point
 def Minkowski(data , r =2,index=[0,0],col =[('@start','@end')]):
         dist = 0.0
         i=0
