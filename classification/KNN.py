@@ -55,17 +55,10 @@ def KNN(data,data_set,goal_col ,K=2):
         #print(dist)
         data_NN.append(tuple((i,dist)))
         data_NN=sorted(data_NN,key =itemgetter(1))
-        #if(len(data_NN)<K):
-         #   data_NN.append(tuple((i,dist)))
-         #   sorted(data_NN,key = lambda data: data[1])
-        #else:
         if(len(data_NN)>K):
             del data_NN[len(data_NN)-1]
         i=i+1
     return data_NN
-    #result=[]
-    #for NN in data_NN:
-     #   result.append([NN[1],data_set[NN[0]].ix[:,goal_col]])
 
 
 
