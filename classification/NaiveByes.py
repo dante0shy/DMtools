@@ -13,3 +13,5 @@ import log
 import math
 from operator import itemgetter
 
+def Probability(data , col):
+    data.ix[:,col]
