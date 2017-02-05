@@ -15,3 +15,4 @@ from operator import itemgetter
 
 def Probability(data , col):
     data.ix[:,col]
+    

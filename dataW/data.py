@@ -32,6 +32,6 @@ class data :
             else:
                 log.LogMessage('no file')
    # def getData(self):
-#print(pd.read_csv('./input/Chapter03DataSet.csv'))
-#data_1 =dataW('./input/game-of-thrones.zip','battles.csv')
+print(pd.read_csv('../input/Chapter03DataSet.csv',usecols=['Gender']))
+#data_1 =dataW('../input/game-of-thrones.zip','battles.csv')
 #print(data_1.dataW)
